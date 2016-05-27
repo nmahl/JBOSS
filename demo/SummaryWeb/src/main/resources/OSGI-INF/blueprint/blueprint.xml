@@ -30,7 +30,7 @@
 	<camelContext xmlns="http://camel.apache.org/schema/blueprint">
 		<route>
 			<from uri="cxfrs:bean:statusEndpoint" />
-			<log message="${headers.clientId}" />
+			<log message="Status for ${headers.clientId}" />
 		</route>
 	</camelContext>
 

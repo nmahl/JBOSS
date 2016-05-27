@@ -13,6 +13,7 @@ public class StatusService {
 	@Produces(MediaType.APPLICATION_JSON)
 	public ClaimStatus status(@PathParam("id") String custId) {
 		ClaimStatus claimStatus = new ClaimStatus();
+		
 		System.err.println("custId " + custId);
 		return claimStatus;
 	}
