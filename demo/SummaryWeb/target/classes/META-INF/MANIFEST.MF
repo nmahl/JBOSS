@@ -1,0 +1,19 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1464334098998
+Build-Jdk: 1.8.0_77
+Built-By: Nirmaljeet
+Bundle-ManifestVersion: 2
+Bundle-Name: Summary Web - Rest DSL
+Bundle-SymbolicName: homeloan-summaryweb
+Bundle-Version: 1.0.0.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Export-Package: org.blogdemo.claimdemo;uses:="javax.ws.rs";version="1.0.
+ 0.SNAPSHOT"
+Import-Package: javax.servlet;version="[2.6,3)",javax.ws.rs;version="[2.
+ 0,3)",org.apache.camel.component.servlet;version="[2.15,3)",org.apache.
+ camel.component.servlet.osgi;version="[2.15,3)",org.ops4j.pax.web.servi
+ ce;version="[3.2,4)",org.osgi.framework;version="[1.7,2)",org.osgi.serv
+ ice.blueprint;version="[1.0.0,2.0.0)",org.osgi.service.http;version="[1
+ .2,2)"
+Import-Service: org.osgi.service.http.HttpService;multiple:=false
+Tool: Bnd-1.50.0
