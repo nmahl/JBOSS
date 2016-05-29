@@ -6,7 +6,8 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.woodmen.demo.domain.CertificateInfo;
 
-public class CertificateValidationProcessor implements Processor {
+public class CertificateValidationProcessor implements Processor {	
+	
 	public static final Logger log = LoggerFactory
 			.getLogger(CertificateValidationProcessor.class);
 
