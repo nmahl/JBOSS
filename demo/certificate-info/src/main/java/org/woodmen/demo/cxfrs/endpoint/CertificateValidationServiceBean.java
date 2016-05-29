@@ -1,4 +1,4 @@
-package org.woodmen.demo;
+package org.woodmen.demo.cxfrs.endpoint;
 
 import javax.ws.rs.Consumes;
 import javax.ws.rs.GET;
@@ -7,18 +7,15 @@ import javax.ws.rs.PathParam;
 import javax.ws.rs.Produces;
 import javax.ws.rs.core.MediaType;
 
-import org.woodmen.demo.domain.CertificateInfo;
-
 @Path("/certificate")
-public class CertificateValidationService {
+public class CertificateValidationServiceBean {
+
 	@GET
 	@Path("/status/{certificateNumber}")
 	@Consumes(MediaType.APPLICATION_JSON)
 	@Produces(MediaType.APPLICATION_JSON)
-	public CertificateInfo status(
+	public String status(
 			@PathParam("certificateNumber") String certificateNumber) {
-		CertificateInfo certificateInfo = new CertificateInfo();
-		certificateInfo.setStatus("GOOD");
-		return certificateInfo;
+		return null;
 	}
 }
