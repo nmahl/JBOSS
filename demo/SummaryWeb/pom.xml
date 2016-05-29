@@ -4,13 +4,13 @@
 	xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
-		<groupId>org.blogdemo.homeloan</groupId>
-		<artifactId>homeloan</artifactId>
+		<groupId>org.woodmen.demo</groupId>
+		<artifactId>scenario-one</artifactId>
 		<version>1.0.0-SNAPSHOT</version>
 	</parent>
-	<artifactId>homeloan-summaryweb</artifactId>
+	<artifactId>certificate-info</artifactId>
 	<packaging>bundle</packaging>
-	<name>Summary Web - Rest DSL</name>
+	<name>Certificate Info - REST</name>
 	<properties>
 		<fabric8.features>cxf camel-jackson war camel-dozer camel-servlet
 			fabric-cxf fabric-groups fabric-cxf-registry fabric-zookeeper</fabric8.features>
@@ -73,45 +73,15 @@
 		<dependency>
 			<groupId>org.apache.camel</groupId>
 			<artifactId>camel-cxf</artifactId>
-
-		</dependency>
-		<!-- http://mvnrepository.com/artifact/org.apache.cxf/cxf-rt-rs-extension-providers -->
-		<!-- http://mvnrepository.com/artifact/org.apache.cxf/cxf-rt-rs-extension-providers -->
+		</dependency> 
 		<dependency>
 			<groupId>org.apache.cxf</groupId>
 			<artifactId>cxf-rt-rs-extension-providers</artifactId>
 		</dependency>
-
-
-<!-- http://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-databind -->
-<!-- 
-		<dependency>
-			<groupId>com.fasterxml.jackson.core</groupId>
-			<artifactId>jackson-databind</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>com.fasterxml.jackson.core</groupId>
-			<artifactId>jackson-annotations</artifactId>
-		</dependency>
-
-		<dependency>
-			<groupId>com.fasterxml.jackson.core</groupId>
-			<artifactId>jackson-core</artifactId>
-		</dependency>
- -->		
 		<dependency>		
 			<groupId>com.fasterxml.jackson.jaxrs</groupId>
 			<artifactId>jackson-jaxrs-json-provider</artifactId>
 		</dependency>
-<!-- 
-<dependency>
-    <groupId>com.fasterxml.jackson.jaxrs</groupId>
-    <artifactId>jackson-jaxrs-xml-provider</artifactId>
-    <version>2.7.4</version>
-</dependency>
-
- -->
-
 	</dependencies>
 	<build>
 		<defaultGoal>install</defaultGoal>

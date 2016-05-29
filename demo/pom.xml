@@ -1,13 +1,13 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-  <modelVersion>4.0.0</modelVersion>
-  <groupId>org.blogdemo.homeloan</groupId>
-  <artifactId>homeloan</artifactId>
-  <version>1.0.0-SNAPSHOT</version>
-  <name>Home Loan Getting Started Demo</name>
-  <packaging>pom</packaging>
-  
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>org.woodmen.demo</groupId>
+	<artifactId>scenario-one</artifactId>
+	<version>1.0.0-SNAPSHOT</version>
+	<name>Demo Scenario #1</name>
+	<packaging>pom</packaging>
 	<modules>
-		<module>SummaryWeb</module>
+		<module>certificate-info</module>
 	</modules>
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
