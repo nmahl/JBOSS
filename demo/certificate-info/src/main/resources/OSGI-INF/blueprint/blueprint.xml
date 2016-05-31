@@ -34,6 +34,6 @@
 	</cxf:rsServer>
 
 	<camelContext xmlns="http://camel.apache.org/schema/blueprint">
-		<routeBuilder ref="certificateValidationRouteBuilder" />
-	</camelContext>
+  <routeBuilder ref="certificateValidationRouteBuilder"/>
+</camelContext>
 </blueprint>
